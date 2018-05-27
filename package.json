@@ -1,0 +1,23 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JNUCapstone/cron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JNUCapstone/cron/issues"
+  },
+  "homepage": "https://github.com/JNUCapstone/cron#readme",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "node-cron": "^1.2.1"
+  }
+}
