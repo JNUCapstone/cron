@@ -2,11 +2,11 @@ const cron = require('node-cron')
 const influx = require('influx')
 
 const DB = new influx.InfluxDB({
-  host: 'localhost',
+  host: '192.168.0.111',
   port: 8086,
   protocol: 'http',
-  username: 'id',
-  password: 'password',
+  username: 'root',
+  password: 'root',
   database: 'grafana'
 })
 
